@@ -1,5 +1,12 @@
 Some notes on generalisation.
 
+There are a few different types of error when learning;
+approximation, optimization and estimation error.
+
+* Approximation is due to the limits of your approximator/fn class
+* Optimisation is due to the fact that we normally truncate training early.
+* Estimation is due to the fact that we dont have access to the true data distribution, on an empirical estimate.
+
 ## References
 
 * [A closer look at memorization in deep networks.](https://arxiv.org/pdf/1706.05394v1.pdf)

@@ -15,5 +15,8 @@ Balduzzi's eqn
 $$
 f \circ g = h \\
 \mathbb R^n \mathop{\rightarrow}^f \mathbb R^m \mathop{\rightarrow}^g \mathbb R^p \\
-\mathbf H_h = (I_p \otimes \nabla f^T)\cdot \mathbf H_g \cdot \nabla f + (\nabla_g \otimes I_n) \cdot \mathbf H_f \\
+(\nabla_g \otimes I_n) \cdot \mathbf H_f  + (I_p \otimes \nabla f^T)\cdot \mathbf H_g \cdot \nabla f = \mathbf H_h\\
 $$
+
+Where we know that;
+*  $g$ is convex, therefore $\mathbf H_g$ is positive semi-definite.

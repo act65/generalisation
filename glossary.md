@@ -28,6 +28,18 @@ I guess this is where the high dimensionality bites us?
 Flatness in HD is hard?  
 -->
 
+__Definition 4.__ The curvature
+
+Using the eigenvalues of the hessian. Large eigenvalues of the hessian imply ... ?
+
+<!--
+But there are probably other measures of the curvature w.r.t flatness?
+- different norms, or ??
+-->
+
+
+
+
 <!--
 Would be nice to show either;
 - these definitions are equivalent,
