@@ -38,3 +38,5 @@ $$
 _So we can arbitrarily scale a to be very large, while giving the same result. However, a small pertubation to_ $W_i$ _is now different. It is scaled by a._
 
 <!-- But the key question is what sort of minima does SGD tend to settle on? So what if they can be arbitrarily scaled, they arent in reality. -->
+
+<!-- But wait a minute. For everything we make more sensitive, we have to make something else less sensitive, so the distribution of sensitivity over all parameters is conserved? -->

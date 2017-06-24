@@ -30,13 +30,14 @@ Flatness in HD is hard?
 
 __Definition 4.__ The curvature
 
-Using the eigenvalues of the hessian. Large eigenvalues of the hessian imply ... ?
+The spectral norm of the hessian. Aka largest singular value. But what about the others singular values...?
 
 <!--
 But there are probably other measures of the curvature w.r.t flatness?
 - different norms, or ??
 -->
 
+But we don't really care about negative curvature. Although it means we have an instability, it just results in increased performance. So we only care about positive curvature.
 
 
 
@@ -57,10 +58,23 @@ __Definition 1.__ Loss on different data
 
 In general there are no restrictions of where this data comes from. However, we are often interested in a 'held-out' set of data produced by the same process as the training data. (why do we care?)
 
+And this is - related to - under/overfitting and estimation error.
+
 __Definition 2.__ Performance on some other metric
 
-In general there are no restrictions on this metric. However, we are often interested in the case where our loss function and our evaluation metric share the same global (and/or some local?) minima. (for example, ce and accuracy?)
+In general there are no restrictions on this metric. However, we are often interested in the case where our loss function and our evaluation metric share the same global minima. (for example, ce and accuracy?)
+<!-- I would like to see a visual of ce and accuracy varying smoothly as a fn of the parameters or inputs -->
 
+
+<!--
+What about other restrictions we could put on the relationship between loss and metric?
+* match local minima?
+* match higher order gradients at minima?
+* ?
+-->
+
+And this is - related to - transfer learning.
+Multi task (not cross domain.)
 
 __Definition 3.__ ???
 
@@ -82,3 +96,8 @@ __Definition 2.__ Explicit representation of the data
 No compression.
 
 __Definition 3.__ ???
+
+
+## Stability
+
+__Definition 1.__

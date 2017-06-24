@@ -20,3 +20,9 @@ $$
 
 Where we know that;
 *  $g$ is convex, therefore $\mathbf H_g$ is positive semi-definite.
+
+
+***
+
+Flat minima imply local symmetry (as at the minima the function is invariant to transforms.) But what sort of symmetry is this??
+Which symmetries would we want to be invariant to? Or there many/any we would want to be invariant to?
