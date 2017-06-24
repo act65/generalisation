@@ -7,3 +7,7 @@ approximation, optimization and estimation error.
 <!-- * ?? error (what other types of error are there) -->
 
 In this we explore estimation error, aka generalisaion (although, ). And is closely related to over/under fitting.
+
+ What about how the size of the networks effects generalisation? A separate topic. So what is this topic? How does learning dynamics effect generalisation.
+
+Is it really sensible to consider only learning dynamics w.r.t generalisation? Other factors include; representation, capacity, (which also effect the learning dynamics?!? argh too complex...)

@@ -1,5 +1,6 @@
 What does the evidence tell us?
 __TODO__ would like to test these myself...
+Reproductions of results, links to sources, ...
 
 ## Empirical evidence
 
@@ -20,6 +21,20 @@ DNNs learn un-noised data faster than noised.
 __Exhibit 4.__ Small pertubations to inputs cause problems
 
 Adversarial pertunations of an inputs can `easily` change its labelling.
+
+__Exhibit 5.__ Batch size effects generalisation
+
+
+
+<!-- Potential qualms with this evidence.
+- How does training time effect this?
+- What about learning rate?
+ -->
+
+
+__Exhibit 5.__ The distribution of eigenvalues of the hessian is ???
+
+Lots of small ones, few negative ones, a very small number of large positive values.
 
 ## Proofs
 

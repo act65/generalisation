@@ -39,6 +39,15 @@ But there are probably other measures of the curvature w.r.t flatness?
 
 But we don't really care about negative curvature. Although it means we have an instability, it just results in increased performance. So we only care about positive curvature.
 
+__Definition 5.__ Imperfect stability metric
+
+Given $x in \mathbb R^n, \epsilon > 0 and A \in\mathbb  R^{n\times p}$, we define the $(C_{\epsilon},A)$-sharpness of $f$ at $x$ as:
+
+$$\phi_{x,f} (\epsilon, A) = max_{y\in C_{\epsilon}} \frac{f(x + Ay) - f(x)}{1+f(x)}$$
+
+
+<!-- The maximum direction (in A) computed via finite difference -->
+
 
 
 <!--
@@ -100,4 +109,8 @@ __Definition 3.__ ???
 
 ## Stability
 
-__Definition 1.__
+__Definition 1.__ Sensitivity measured with gini
+
+
+
+ <!-- Does the frequency distribution need to be centered, or around zero? -->

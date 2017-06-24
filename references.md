@@ -23,6 +23,7 @@ They do not show that sharp minima can `generalise`. Only that under common defi
 
 ##### [Entropy-SGD: Bias gradient descent into wide valleys. ](https://arxiv.org/pdf/1611.01838.pdf)
 
+How is the local entropy related to curvature?
 
 ##### [Theory of Deep Learning III: Generalization Properties of SGD.](https://dspace.mit.edu/bitstream/handle/1721.1/107841/CBMM-Memo-067.pdf?sequence=1)
 
