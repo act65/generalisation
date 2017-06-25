@@ -43,3 +43,7 @@ __Conjecture 5.__ Repeated patterns are learned faster
 Because we see the same thing more often, we have more gradient updates along a given direction, thus generalisable patterns are learned first and memorisation is not requires (or is only required to fit noise).
 
 Data is structured. Structure means there are some shared factors. Every data point hints at this structure. ...
+
+__Conjecture 6.__ Restricted capacity
+
+> This result contradicts the intuitions of traditional learning theory, which suggest that capacity should be restricted, in order to enforce the learning of (only) the most regular pat- terns.

@@ -8,6 +8,13 @@ approximation, optimization and estimation error.
 
 In this we explore estimation error, aka generalisaion (although, ). And is closely related to over/under fitting.
 
- What about how the size of the networks effects generalisation? A separate topic. So what is this topic? How does learning dynamics effect generalisation.
+So to control for approximation and optimisation error, we should expect that;
+
+* models are trained until their gradient norm is less than some threshold (ie progress has slowed to a crawl).
+*
+
+What about how the size of the networks effects generalisation? A separate topic. So what is this topic? How does learning dynamics effect generalisation.
 
 Is it really sensible to consider only learning dynamics w.r.t generalisation? Other factors include; representation, capacity, (which also effect the learning dynamics?!? argh too complex...)
+
+Should charachterise the connection between generalisation and under/over fitting? Define under/over fitting.

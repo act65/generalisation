@@ -17,11 +17,9 @@
 
 Sharp minima (wrt parameters) are equivalent to flat minima as we can arbitrarily rescale the curvature of the loss.
 
-> All these works rely on the fact that flatness results in robustness to low precision arithmetic or noise in the parameter space, which, using an minimum description length-based argument, suggests a low expected overfitting.
-
 They do not show that sharp minima can `generalise`. Only that under common definitions of flatness, functions with equivalent generalisation can be made to have arbitrarily flat or sharp minima.
 
-##### [Entropy-SGD: Bias gradient descent into wide valleys. ](https://arxiv.org/pdf/1611.01838.pdf)
+##### [Entropy-SGD: Bias gradient descent into wide valleys.](https://arxiv.org/pdf/1611.01838.pdf)
 
 How is the local entropy related to curvature?
 

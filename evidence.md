@@ -29,12 +29,18 @@ __Exhibit 5.__ Batch size effects generalisation
 <!-- Potential qualms with this evidence.
 - How does training time effect this?
 - What about learning rate?
+- Is that just due to batch norm?
  -->
 
 
 __Exhibit 5.__ The distribution of eigenvalues of the hessian is ???
 
 Lots of small ones, few negative ones, a very small number of large positive values.
+
+__Exhibit 6.__ Samples near the decision boundary
+
+We now show that the number of critical samples is much higher for a deep network (specifically, a CNN) trained on noise data compared with real data.
+<!-- What about other adversarial perturbations? -->
 
 ## Proofs
 
@@ -55,3 +61,11 @@ _So we can arbitrarily scale a to be very large, while giving the same result. H
 <!-- But the key question is what sort of minima does SGD tend to settle on? So what if they can be arbitrarily scaled, they arent in reality. -->
 
 <!-- But wait a minute. For everything we make more sensitive, we have to make something else less sensitive, so the distribution of sensitivity over all parameters is conserved? -->
+
+__Theorem 2.__ Flat minima w.r.t parameters are simpler hypotheses
+
+> ... that flatness results in robustness to low precision arithmetic or noise in the parameter space, which, using an minimum description length-based argument, suggests a low expected overfitting.
+
+Higher precision can give higher frequency changes, making it possible to be sharper.
+
+<!-- A lot of these conjectures state that it must be a cts flat minima. Why? Discts could also work? -->

@@ -56,7 +56,13 @@ Would be nice to show either;
 - they are talking about different things and have different implications.
 
 - What about the ratio/distribution of sharpness in different dimensions?
+
+What about other types of minima?
+- strongly convex??
+- ??
 -->
+
+
 ## Generalisation
 
 > is the performance of our trained model on/doing some thing other than what it was trained for.
@@ -69,7 +75,24 @@ In general there are no restrictions of where this data comes from. However, we 
 
 And this is - related to - under/overfitting and estimation error.
 
-__Definition 2.__ Performance on some other metric
+
+__Definition 2.__ Risk
+
+The generalisation error is defined as the difference between the expected risk and the empirical risk.
+
+$$
+R[w] = \mathbb E_{z\sim D} \big[ f(w; z) \big]\\
+R_S[w] = \frac{1}{n} \sum_n f(w; z_i) \\
+\epsilon_{generalisation} = R_S[w] - R[w] \\
+$$
+
+__Definition 2.__ Expected extended generalisation error
+
+$$
+\mathbb E_G(D, D_0) = \sum_{h\in H} p(h \mid D_0) \mathbb E(D\backslash D_0, h) - \sum_{h\in H} p_{D_0}(h \mid D) \mathbb E(D\backslash D_0, h)
+$$
+
+__Definition 3.__ Performance on some other metric
 
 In general there are no restrictions on this metric. However, we are often interested in the case where our loss function and our evaluation metric share the same global minima. (for example, ce and accuracy?)
 <!-- I would like to see a visual of ce and accuracy varying smoothly as a fn of the parameters or inputs -->
@@ -84,9 +107,6 @@ What about other restrictions we could put on the relationship between loss and 
 
 And this is - related to - transfer learning.
 Multi task (not cross domain.)
-
-__Definition 3.__ ???
-
 
 
 
@@ -111,6 +131,25 @@ __Definition 3.__ ???
 
 __Definition 1.__ Sensitivity measured with gini
 
-
-
  <!-- Does the frequency distribution need to be centered, or around zero? -->
+
+__Definition 2.__ (something from dynamical systems?)
+
+
+
+<!-- ## Complexity () they are really talking about stablity? how easily labels can be flipped.-->
+
+__Definition 1 or 3?.__ Critical sample ratio
+
+$$
+argmax_i f_i(x)
+$$
+
+
+__Definition 4.__
+
+A randomized algorithm A is $\epsilon$-uniformly stable if for all data sets $S,S' \in Z_n$ such that $S$ and $S$? differ in at most one example, we have
+
+$$
+sup_z \mathbb E_A\big[f(A(S); z)−f(A(S'); z)\big] ≤ \epsilon
+$$

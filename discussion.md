@@ -8,6 +8,10 @@ What does a neural networks loss surface actually look like? Would be great to h
 
 Existence and density of sharp minimizers of the loss surface.
 
+How is sample complexity tied to the number of steps an optimiser takes. We often conflate these two things when thinking about generalisation error. Would be nice to investigate.
+
+<!-- So can I just take a super small subset of data, add my own noise, and pick out the patterns because we see them more often(ohh, this reminds me of info maximisation under noise!!). Main problem is that the data still needs to be representative of all patterns. -->
+
 ## Wish list
 
 What do we care about in practice?

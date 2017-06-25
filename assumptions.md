@@ -13,3 +13,5 @@ __Assumption 2.__
 __Assumption 3.__
 
 * ? there must be a few more.
+* only bother with SGD (could look into exp weights or admm?)
+* 
