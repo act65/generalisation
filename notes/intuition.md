@@ -46,3 +46,10 @@ reminds me of ensemble methods. would be nice to combine the remaining models.
 
 What if we could sort a function? Think of sorting as a transform that can be applied.
 Sorting $L(\theta)$ requires evaluating it a bunch of times. Expensive. Is there such a thing as black box sorting?
+
+
+***
+
+Generalisation is the ability to abstract some pattern from domain X, and successfully apply it to domain Y.
+
+Could design a good experiment for this?

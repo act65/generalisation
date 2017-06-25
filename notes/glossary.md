@@ -113,7 +113,22 @@ What about other restrictions we could put on the relationship between loss and 
 And this is - related to - transfer learning.
 Multi task (not cross domain.)
 
+__Definition 5.__ Invariance to transforms
 
+A models ability to generalise is measured as the size of the set of possible transforms that our learned function is invariant to.
+
+$$
+\mathcal G = \big\{ t\in \mathcal T: f_{\theta}(x) \approx f_{\theta}(t(x))\big\}
+$$
+
+E.g. Take a sentence, perturb it (rearrange words, use different words), yet the meaning still remains the same. (in contrast to memory, which would not understand the transformed input, as it has not been observed)
+
+We would expect our function to be invariant to __all__ types of `noise` (define 'noise' here).
+
+<!-- It seems funny that this formulation has nothing to do with the loss function. Although it does have implications for the loss.
+
+Invariance to transforms implies that the transform is low rank in some way, collapsing in certain directions. Or that the jacobian has some structure (not full rank) and can be decomposed
+ -->
 
 ## Memorization
 
