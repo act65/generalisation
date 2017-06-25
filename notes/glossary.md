@@ -86,13 +86,18 @@ R_S[w] = \frac{1}{n} \sum_n f(w; z_i) \\
 \epsilon_{generalisation} = R_S[w] - R[w] \\
 $$
 
-__Definition 2.__ Expected extended generalisation error
+__Definition 3.__ Expected extended generalisation error
 
 $$
 \mathbb E_G(D, D_0) = \sum_{h\in H} p(h \mid D_0) \mathbb E(D\backslash D_0, h) - \sum_{h\in H} p_{D_0}(h \mid D) \mathbb E(D\backslash D_0, h)
 $$
 
-__Definition 3.__ Performance on some other metric
+* Over-fitting error: relevant for measuring the learner has focused too much on the training set.
+* Under-fitting error: relevant for measuring whether the learner sufficiently approximates the training set.
+
+?? Can be formulated as the integrals of the difference between the models trained on empirical and true data.
+
+__Definition 4.__ Performance on some other metric
 
 In general there are no restrictions on this metric. However, we are often interested in the case where our loss function and our evaluation metric share the same global minima. (for example, ce and accuracy?)
 <!-- I would like to see a visual of ce and accuracy varying smoothly as a fn of the parameters or inputs -->

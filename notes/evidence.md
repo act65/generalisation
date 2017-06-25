@@ -69,3 +69,8 @@ __Theorem 2.__ Flat minima w.r.t parameters are simpler hypotheses
 Higher precision can give higher frequency changes, making it possible to be sharper.
 
 <!-- A lot of these conjectures state that it must be a cts flat minima. Why? Discts could also work? -->
+
+
+__Theorem 3.__ The generalisation error of invariant classifiers
+
+> We prove that given a learning method invariant to a set of transformations of size T, the GE of this method may be up to a factor √T smaller than the GE of a non-invariant learning method.
