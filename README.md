@@ -26,3 +26,19 @@ Relation to;
 * the bias-variance tradeoff,
 * adversarial perturbations,
 * ?
+
+
+Want to see plots of ;
+* optimisation error wrt training time (and learning rate/dynamics?)
+* approximation error wrt n_parameters, architecture, non-linearities, ?
+* generalisation error wrt sample complexity, ?
+
+<!-- Ahh. There are dependent on each other...
+- Weight sharing changes smaple complexity
+- non-linearities effect training dynamics
+- optimisation algorithms work well with some architectures...
+- ?
+
+ -->
+
+Ideally we could ses optimisation error vs approximation error vs generalisation error. How?

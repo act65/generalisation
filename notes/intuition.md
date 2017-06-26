@@ -53,3 +53,7 @@ Sorting $L(\theta)$ requires evaluating it a bunch of times. Expensive. Is there
 Generalisation is the ability to abstract some pattern from domain X, and successfully apply it to domain Y.
 
 Could design a good experiment for this?
+
+***
+
+Generalisation is about fitting a hypothesis that satifies/explains things, with less care for accuracy? 'Broad' patterns, that abstract some details/noise/complexity away. Doesnt this imply we should use small nets, with lots of weight sharing/few parameters, if we want to learn the most general things? Because the data is pulling in many different directions, and we have to do the best we can with some simple hypothesis. Problem is there is no guarantee we find this hypothesis.

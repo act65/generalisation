@@ -162,7 +162,8 @@ __Definition 2.__ (something from dynamical systems?)
 __Definition 1 or 3?.__ Critical sample ratio
 
 $$
-argmax_i f_i(x)
+argmax_i f_i(x) \neq argmax_j f_j(\hat x) \\
+s.t. \; \parallel x-\hat x\parallel_{\infty} \le r \\
 $$
 
 
@@ -173,3 +174,12 @@ A randomized algorithm A is $\epsilon$-uniformly stable if for all data sets $S,
 $$
 sup_z \mathbb E_A\big[f(A(S); z)−f(A(S'); z)\big] ≤ \epsilon
 $$
+
+
+__Definition 5.__ Stable learning algorithm
+
+Consider the algorithm $A$ and the hypothesis $A_{S_m}(x)$. The learning algorithm $A$ is stable if for any training set $S_m$
+$$
+max_{x\in\mathbb R^N} \parallel J(x)\parallel_2 ≤ 1 \\
+$$
+where $\parallel · \parallel_2 denotes the spectral norm.

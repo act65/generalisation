@@ -62,6 +62,8 @@ _So we can arbitrarily scale a to be very large, while giving the same result. H
 
 <!-- But wait a minute. For everything we make more sensitive, we have to make something else less sensitive, so the distribution of sensitivity over all parameters is conserved? -->
 
+<!-- Doesnt actually apply to NNs. bias screws up proof -->
+
 __Theorem 2.__ Flat minima w.r.t parameters are simpler hypotheses
 
 > ... that flatness results in robustness to low precision arithmetic or noise in the parameter space, which, using an minimum description length-based argument, suggests a low expected overfitting.

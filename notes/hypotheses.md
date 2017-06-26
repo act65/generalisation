@@ -44,6 +44,8 @@ Because we see the same thing more often, we have more gradient updates along a 
 
 Data is structured. Structure means there are some shared factors. Every data point hints at this structure. ...
 
+<!-- !!! Deep nets. Early layers get more feed back because there are exponentially more paths that each do their won thing. So weights are shared across many paths. Therefore faster learning? And generalisation. -->
+
 __Conjecture 6.__ Restricted capacity
 
 > This result contradicts the intuitions of traditional learning theory, which suggest that capacity should be restricted, in order to enforce the learning of (only) the most regular pat- terns.
