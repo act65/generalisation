@@ -3,6 +3,10 @@
 <!--
 - Minima w.r.t what? Inputs, parameters, outputs?
 - Flatness wrt to what? Inputs, parameters, perturbations, test data, ?
+
+What about other types of minima?
+- strongly convex??
+- ??
 -->
 
 __Definition 1.__ Volume below some threshold
@@ -56,10 +60,6 @@ Would be nice to show either;
 - they are talking about different things and have different implications.
 
 - What about the ratio/distribution of sharpness in different dimensions?
-
-What about other types of minima?
-- strongly convex??
-- ??
 -->
 
 
@@ -196,3 +196,8 @@ $$
 max_{x\in\mathbb R^N} \parallel J(x)\parallel_2 ≤ 1 \\
 $$
 where $\parallel · \parallel_2 denotes the spectral norm.
+
+
+## Robustness
+
+<!-- What is the difference between this and stability??? -->

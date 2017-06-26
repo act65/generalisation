@@ -1,5 +1,4 @@
 Why does the combination of NNs and SGD generalise so well?
-Why does ?
 
 > What do these candidate hypotheses (to explain ?)? How can they be falsified?
 
@@ -22,21 +21,23 @@ Ohhh. I think I see?
 
 <!-- There is always some way to resacle layers such that the number of eigenvalues of the hessian greater than $M$ is $r−min_{k\in K}(n_k)$. -->
 
-
 __Conjecture 2.__ Stochasticity for exploration
 
-A distinct hypothesis from bouncing out of sharp minima is the use of stochasticity to explore many locally connected ... 2 phases of learning. Exploration and gradient descent. How is this related to sharp/flat minima?
+A distinct hypothesis from bouncing out of sharp minima is the use of stochasticity to explore many locally connected regions. The idea is that learning occurs in two phases, exploration and gradient descent.
+
+How is this similar/different to sharp/flat minima? We could bounce between many different wide minima, while searching for a low, wide minima.
 
 __Conjecture 3.__ Rank dependent sensitivity
 
 Wide networks tend to have fewer large eigenvalues than deep networks. Large eigenvalues lead to sharp minima which dont generalise well. Therefore, wide nets generalise better.
 
 
-__Conjecture 4.__ Simple patterns are learned faster
+__Conjecture 4.__ Simple patterns are learned first
 
 DNNs learn `simple` patterns first, before memorizing.
 Easier examples are explained by some simple patterns, which are reliably learned within the first epoch of training.
-<!-- Eh. dont like that one -->
+
+_How would we prove this?_
 
 __Conjecture 5.__ Repeated patterns are learned faster
 
@@ -48,4 +49,4 @@ Data is structured. Structure means there are some shared factors. Every data po
 
 __Conjecture 6.__ Restricted capacity
 
-> This result contradicts the intuitions of traditional learning theory, which suggest that capacity should be restricted, in order to enforce the learning of (only) the most regular pat- terns.
+> This result contradicts the intuitions of traditional learning theory, which suggest that capacity should be restricted, in order to enforce the learning of (only) the most regular patterns.

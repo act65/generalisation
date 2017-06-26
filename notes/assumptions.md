@@ -14,4 +14,4 @@ __Assumption 3.__
 
 * ? there must be a few more.
 * only bother with SGD (could look into exp weights or admm?)
-* 
+* Most empirical results that apply to adaptive SGD also apply to SGD and vice versa.

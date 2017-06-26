@@ -1,7 +1,4 @@
 What does the evidence tell us?
-__TODO__ would like to test these myself...
-Reproductions of results, links to sources, ...
-
 ## Empirical evidence
 
 __Exhibit 1.__ Memorisation of noise
@@ -11,6 +8,10 @@ DNNs can learn to shatter noise.
 __Exhibit 2.__ Robustness to label noise
 
 Even with extraordinary amounts of label noise, it is still possible learn patterns.
+
+__Exhibit 3.__ Structured label noise
+
+> We observe that both alternative sources of noise lead to better performance than the noise originating from the same dataset.
 
 __Exhibit 3.__ Speed of learning noised data
 
