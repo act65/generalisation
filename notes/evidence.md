@@ -1,4 +1,13 @@
 What does the evidence tell us?
+
+
+Since we want to study generalisation error, we need to control for approximation and optimisation error, we should expect that;
+
+* models are trained until their gradient norm is less than some threshold (ie progress has slowed to a crawl). So we are not worried about under-fitting.
+* models are more than large enough (flexibility: $n$ of parameters) and complex enough (capacity: non-linearity, depth, ?) to contain the `true` (or just some $\epsilon$-approximation?) hypothesis (but how easily findable is it?).
+<!-- Capacity vs flexibility -  reminds me of a basis and coefficients. -->
+
+
 ## Empirical evidence
 
 __Exhibit 1.__ Memorisation of noise

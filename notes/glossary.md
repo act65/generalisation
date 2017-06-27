@@ -143,6 +143,14 @@ What is the conserved quantity?!? If we transform x, with t(x), and still get th
 Invariance to transforms implies that the transform is low rank in some way, collapsing in certain directions. Or that the jacobian has some structure (not full rank) and can be decomposed.
  -->
 
+#### Overfitting
+
+
+
+#### Underfitting
+
+
+
 ## Memorization
 
 __Definition 1.__ Zhang et al.

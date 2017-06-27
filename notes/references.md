@@ -8,13 +8,12 @@
 > We show that even without explicit cleaning or noise-robust algorithms, neural networks can learn from data that has been diluted by an arbitrary amount of label noise.
 
 But what is the cost?
-***
 
 ##### [Flat Minima.](http://doi.org/10.1162/neco.1997.9.1.1)
 
 ##### [Sharp minima can generalize for deep nets](https://arxiv.org/pdf/1703.04933.pdf)
 
-Sharp minima (wrt parameters) are equivalent to flat minima as we can arbitrarily rescale the curvature of the loss.
+Sharp minima (of NNs wrt their parameters) are equivalent (under the right definitions of flat and sharp) to flat minima as we can arbitrarily rescale the curvature of the loss.
 
 They do not show that sharp minima can `generalise`. Only that under common definitions of flatness, functions with equivalent generalisation can be made to have arbitrarily flat or sharp minima.
 
