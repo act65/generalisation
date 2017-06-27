@@ -11,6 +11,7 @@ estimation error could include- robustness, ?,  -->
 
 In this we explore estimation error, aka generalisaion (although, ). And is closely related to over/under fitting.
 
+Questions we will explore;
 
 * What is generalisation?
 * How do the learning dynamics of optimisation effect generalisation?
@@ -18,7 +19,7 @@ In this we explore estimation error, aka generalisaion (although, ). And is clos
 
 Is it really sensible to consider only learning dynamics w.r.t generalisation? Other factors include; representation, capacity, (which also effect the learning dynamics?!? argh too complex...)
 
-Want to see plots of ;
+Want to see plots of;
 * optimisation error wrt training time (and learning rate/dynamics?)
 * approximation error wrt n_parameters, architecture, non-linearities, ?
 * generalisation error wrt sample complexity, ?

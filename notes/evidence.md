@@ -60,10 +60,10 @@ Let $a$ be some constant value and $\rho$ be a non-negative homogenous function 
 
 __TODO__. this doesnt work, yet.
 $$
-\begin{align}
+\begin{aligned}
 W_{i+1}\rho(W_ix) &= aW_{i+1}\rho(a^{-1}W_ix)  \\
 \frac{\partial y}{\partial W_{i+1}} = I \otimes \rho(W_ix)&\neq a I \otimes \rho(a^{-1}W_ix) \\
-\end{align}
+\end{aligned}
 $$
 
 _So we can arbitrarily scale a to be very large, while giving the same result. However, a small pertubation to_ $W_i$ _is now different. It is scaled by a._

@@ -12,12 +12,15 @@ How is sample complexity tied to the number of steps an optimiser takes. We ofte
 
 <!-- So can I just take a super small subset of data, add my own noise, and pick out the patterns because we see them more often(ohh, this reminds me of info maximisation under noise!!). Main problem is that the data still needs to be representative of all patterns. -->
 
+What fundamental cost is there to finding `general` patterns, as opposed to memorising local statistics (what is the difference...?).
+
 ## Wish list
 
 What do we care about in practice?
 
-* The ability to train on large batches and get good generalisation
-* ?
+* Train on large batches and get good generalisation.
+* Getting the same accuracy, with less training data.
+*
 
 ## Conclusions
 

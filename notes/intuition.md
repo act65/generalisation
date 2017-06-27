@@ -9,10 +9,10 @@ This suggest that a small pertubation to $x$ should result in a small change in 
 Want something like
 
 $$
-\begin{align}
+\begin{aligned}
 \mathbb E[\mathcal L(x_i)] &= \sum_i p(x_i)\mathcal L(x_i) \\
-&= \int \mathcal L(x)dx \tag{if x is uniform}
-\end{align}
+&= \int \mathcal L(x)dx
+\end{aligned}
 $$
 
 the integral over all likely inputs. This is a way to measure the area under the graph. It should be easy to see that an approximation that generalises should have far lower area.
