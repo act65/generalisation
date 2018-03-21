@@ -117,6 +117,8 @@ What about other restrictions we could put on the relationship between loss and 
 And this is - related to - transfer learning.
 Multi task (not cross domain.)
 
+This is nice? We are really asking, how does training on loss F generalise to loss G?
+
 __Definition 5.__ Invariance to transforms
 
 A models ability to generalise is measured as the size of the set of possible transforms that our learned function is invariant to.
@@ -172,7 +174,7 @@ No compression.
 __Definition 3.__ ???
 
 
-## Stability
+## Stability (aka robustness?)
 
 __Definition 1.__ Sensitivity measured with gini
 
@@ -212,6 +214,25 @@ $$
 where $\parallel · \parallel_2 denotes the spectral norm.
 
 
-## Robustness
 
-<!-- What is the difference between this and stability??? -->
+## Complexity
+
+__Definition 1.__ Central limit theorem
+
+$$
+R(\hat f) \le R_{emp}(\hat f) + \frac{\sqrt{Var_{x,y} l(\hat f(x), y)}}{\sqrt N}
+$$
+
+__Definition 2.__ Minimum description length
+
+
+__Definition 3.__ Magnitude of the derivative
+
+What about change in the hessian, or higher orders? Some sort of weighted sum of these (up to infinity... at some point -- which point -- they will go to zero) makes the most sense to me.
+
+A simple function is linear. A complex function is non-linear. 
+But a simple 'first-order' non-linear function could have constant hessian, making it 'simpler' than a function with changing hessian?!
+
+When the inputs change the outputs change in 'predictable' ways.
+
+Closely related to Lipchitz?

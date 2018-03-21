@@ -104,3 +104,13 @@ Define:
 ## Signal and noise
 
 What is the difference between `signal` and `noise`? it seems like something could be signal or a certain capacity net and noise for another?!
+
+## Composing losses/goals
+
+If task 1 is orthogonal to task 2 then we would expect that learning to do task 1 doesnt not allow any generalisation of knowledge to task 2.
+
+$$
+\mathbb E_{x \sim \mathcal D} \big[t__1(x) \cdot t_2(x) \big] = 0
+$$
+
+But this isnt true (is it?). I could construct two targets that are orthogonal yet have a CNN that learns useful features for finding patterns in images that generalise between both tasks!?

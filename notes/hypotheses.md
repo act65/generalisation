@@ -52,3 +52,10 @@ Data is structured. Structure means there are some shared factors. Every data po
 __Conjecture 6.__ Restricted capacity
 
 > This result contradicts the intuitions of traditional learning theory, which suggest that capacity should be restricted, in order to enforce the learning of (only) the most regular patterns.
+
+__Conjecture 7.__ Linear activations
+
+By defining low complexity as ...? we are saying that 
+There exist more combinations/larger volumes of parameter settings that give 'simple' linear relationships than more complex ones.
+
+<!-- This doesnt garauntee that we must go through simple ones first, or that they are preferable in any way.-->
